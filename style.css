@@ -1,0 +1,50 @@
+body{
+    font-family: Arial;
+    padding: 10px;
+}
+h1{
+    font-weight: bold;
+}
+.highlight{
+    background-color: rgb(164, 210, 253);
+    color: rgb(68, 121, 181);
+    font-size: 30px;
+    font-weight: bold;
+}
+.highlight p{
+    padding: 3px;
+}
+.container{
+    display: flex;
+}
+.content{
+    width:70%;
+}
+.img{
+    width: 30%;
+}
+table tr td{
+    padding: 3px;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table tr{
+    background-color: rgb(222, 222, 222);
+}
+tr:nth-child(even) {
+    background-color: #ffff;
+}
+table tr td:first-child{
+    font-weight: bold;
+}
+.table1 td:first-child{
+    color: rgb(1 66 157);
+}
+.table2 td:first-child{
+    color: rgb(69 165 255);
+}
+.row3{
+    color: rgb(0 131 255);
+}
